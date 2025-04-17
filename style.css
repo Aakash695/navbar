@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    position: sticky;
+   
+    width: 100%;
+    background-color:white; 
+    
+}
+
+.flex{
+    display: flex;
+}
+.black{
+    color: black;
+}
+.padding{
+    padding: 25px;
+}
+.navbar{
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 45px; 
+    font-weight: bold;
+    
+
+}
+li>a:hover{
+      color: grey;
+}
+
+a{
+    text-decoration: none;
+    
+    
+}
+.size{
+    height: 20px;
+}
+.icon{
+    gap: 8px;
+}
+.icon>a:hover{
+    background-color: gray;
+    
+    
+}
+
+video{
+    width: 100%;
+    height: auto;
+    
+    
+}
+.name{
+    position: absolute;
+    top: 267px;
+    left: 290px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+h2{
+    text-align: center;
+    text-decoration: underline ;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+   
+}
+  
+
+.cards{
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background-color: gray;
+    border-radius: 20px;
+    margin: 15px;
+
+}
+.top{
+    margin-top: 15px;
+}
+.card{
+    
+    width: 230px;
+    height: 300px;
+   border-radius: 15px;
+   margin-top: 40px;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card img{
+    object-fit: contain;
+    width: 230px;
+    border-radius: 15px;
+    
+}
+.input{
+    width: 45px;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
